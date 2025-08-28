@@ -360,8 +360,10 @@ public with sharing class ClassesObjectsMethods {
         
         // Constructor to initialize the name and age
         /**
-         * @pram name The name of the person.
-         * @pram age The age of the person.
+         * @description The Person class represents a person.
+         * Each Person object has a name and an age, and methods to return these details.
+         * @param name The name of the person.
+         * @param age The age of the person.
          */
         public Person(String name, Integer age) {
             this.name = name;
@@ -372,6 +374,8 @@ public with sharing class ClassesObjectsMethods {
         // Return a string in the format "Hello, my name is <name> and I am <age> years old."
         // For example, introduceYourself() should return a string like "Hello, my name is John Doe and I am 28 years old."
         /**
+         * @description The Person class represents a person.
+         * Each Person object has a name and an age, and methods to return these details.
          * @return A string containing the details of the person.
          */
         public String introduceYourself() {
@@ -380,6 +384,7 @@ public with sharing class ClassesObjectsMethods {
         
         // Getter method that returns the name of the person
         /**
+         * @description Get the name of the person.
          * @return The name of the person.
          */
         public String getName() {
@@ -387,6 +392,7 @@ public with sharing class ClassesObjectsMethods {
         }
         // Getter method that returns the age of the person
         /**
+         * @description Get the age of the person.
          * @return The age of the person.
          */
         public Integer getAge() {
@@ -395,6 +401,7 @@ public with sharing class ClassesObjectsMethods {
         
         // Setter method that sets the name of the person
         /**
+         * @descrption Set the name of the person.
          * @param name The name of the person.
          */
         public void setName(String name) {
@@ -403,6 +410,7 @@ public with sharing class ClassesObjectsMethods {
         
         // Setter method that sets the age of the person
         /**
+         * @descrption Set the age of the person.
          * @param age The age of the person.
          */
         public void setAge(Integer age) {
