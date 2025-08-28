@@ -401,7 +401,7 @@ public with sharing class ClassesObjectsMethods {
         
         // Setter method that sets the name of the person
         /**
-         * @descrption Set the name of the person.
+         * @description Set the name of the person.
          * @param name The name of the person.
          */
         public void setName(String name) {
